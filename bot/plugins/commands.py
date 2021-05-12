@@ -23,7 +23,12 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
+        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>"
+
+<b>
+🌟༺ ──•◈•─ ─•◈•──༻🌟
+@cinemapedika
+@SERIES4USGroup</b>)
         
         if file_type == "document":
         
@@ -38,7 +43,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Main Channel', url="https://t.me/CP_S4U_Links"
                                 )
                         ]
                     ]
@@ -89,10 +94,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developer', url='https://t.me/carlmax_channel'),
+        InlineKeyboardButton('Movie Group', url ='https://t.me/cinemapedika')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Main Channel 🛠', url='https://t.me/CP_S4U_Links')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
