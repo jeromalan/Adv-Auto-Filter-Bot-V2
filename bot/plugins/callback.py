@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My Dev ⚡", url="https://t.me/carlmax_here"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/carlmax_channel'),
+            InlineKeyboardButton('Movie Group', url ='https://t.me/cinemapedika')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('Main Channel', url='https://t.me/CP_S4U_Links')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
