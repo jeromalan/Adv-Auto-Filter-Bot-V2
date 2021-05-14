@@ -212,7 +212,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code>, Requested By <b><code>{update.from_user.first_name}</code></b>, "DraX Movies",url="https://t.me/joinchat/TV_lOjIzLBGmSMGi"",                 
+                text=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code>, Requested By <b><code>{update.from_user.first_name}</code></b>",               
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
