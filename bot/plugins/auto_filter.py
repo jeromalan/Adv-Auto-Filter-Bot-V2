@@ -131,13 +131,13 @@ async def auto_filter(bot, update):
             )
         
     else:
-        await bot.Send_message(
+        await bot.send_message(
         chat_id = update.chat.id,
         text=f"𝗖𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝘁𝗵𝗶𝘀 𝗺𝗼𝘃𝗶𝗲 😢ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടത്തി അതുപോലെ ഇവിടെ ടൈപ്പ് ചെയ്യുക....[Google the original name of the movie and type it here ....]",               
         reply_to_message_id=update.message_id
            )
         await asyncio.sleep(10) # in seconds
-        await Send_message.delete()
+        await send_message.delete()
         await bot.delete_messages(update.chat.id,update.message_id)
         return # return if no files found for that query
     
