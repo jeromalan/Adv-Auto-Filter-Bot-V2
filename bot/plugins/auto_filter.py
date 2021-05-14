@@ -137,7 +137,7 @@ async def auto_filter(bot, update):
         reply_to_message_id=update.message_id
            )
         await asyncio.sleep(10) # in seconds
-        await send_message.delete()
+        await Send_message.delete()
         await bot.delete_messages(update.chat.id,update.message_id)
         return # return if no files found for that query
     
