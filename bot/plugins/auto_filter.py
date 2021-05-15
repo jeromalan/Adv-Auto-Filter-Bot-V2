@@ -121,9 +121,9 @@ async def auto_filter(bot, update):
                             
             results.append(
                 [
-                    InlineKeyboardButton(f"📁 file_name" , url=file_link)
+                    InlineKeyboardButton(f"📁 file_name" , url=file_link), 
                     InlineKeyboardButton(button_text, url=https://t.me/joinchat/SvKwgBUA_RzHoNd6)
-                ]
+                ], 
             )
         
     else:
