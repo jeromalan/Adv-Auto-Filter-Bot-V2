@@ -82,7 +82,7 @@ async def auto_filter(bot, update):
             
             # add emoji down below inside " " if you want..
             button_text = f"📁 {file_name}"
-                          f"{file_size}"
+                          
 
             if file_type == "video":
                 if allow_video: 
@@ -121,8 +121,8 @@ async def auto_filter(bot, update):
                             
             results.append(
                 [
-                    InlineKeyboardButton(button_text, url=file_link)
-                    InlineKeyboardButton(button_text, url=file_link)
+                    InlineKeyboardButton(f"📁 {file_name}", url=file_link)
+                    InlineKeyboardButton(f"{file_size}", url=file_link)
                 ]
             )
         
