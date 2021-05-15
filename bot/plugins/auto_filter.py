@@ -108,7 +108,7 @@ async def auto_filter(bot, update):
 
             results.append(
            [
-                    InlineKeyboardButton("🎟JOIN CHANNEL" , url="https://t.me/joinchat/d8gbo7WMFKQ3NzRl") 
+                    InlineKeyboardButton("🎟JOIN CHANNEL" , url="https://t.me/joinchat/xy2tjwLH-a05Y2Jk") 
                 ]
             ) 
 
@@ -211,7 +211,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
+                text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code> \n\n <u><b><i>📌 താഴെ കാണുന്ന ജോയിൻ ചാനലിൽ ക്ലിക്ക് ചെയ്‌തതിനു ശേഷം മാത്രം മൂവി ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക 👇👇👇</i></b></u>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
