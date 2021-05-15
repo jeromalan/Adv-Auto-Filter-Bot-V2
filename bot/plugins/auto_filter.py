@@ -104,7 +104,13 @@ async def auto_filter(bot, update):
             
             if len(results) >= max_results:
                 break
-            
+
+            results.append(
+           [
+                    InlineKeyboardButton("🎟JOIN CHANNEL" , url="https://t.me/joinchat/d8gbo7WMFKQ3NzRl") 
+                ]
+            ) 
+
             if pm_file_chat: 
                 unique_id = filter.get("unique_id")
                 if not FIND.get("bot_details"):
