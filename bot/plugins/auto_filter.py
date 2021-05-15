@@ -82,7 +82,7 @@ async def auto_filter(bot, update):
             
 
             # add emoji down below inside " " if you want..
-            button_text = f"📁 {file_size}"
+            button_text = f"📁 {file_name}"
                           
 
             if file_type == "video":
