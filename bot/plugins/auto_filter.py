@@ -80,6 +80,10 @@ async def auto_filter(bot, update):
             
             file_size = "" if file_size == ("[0 B]") else file_size
             
+            btn_size = [
+            "f"{file_size}",
+            ] 
+
             # add emoji down below inside " " if you want..
             button_text = f"{file_size}"
                           
@@ -128,6 +132,7 @@ async def auto_filter(bot, update):
             results.append(
                 [
                     InlineKeyboardButton(f"📁 file_name" , url=file_link)
+                    InlineKeyboardButton(f"btn_size" , url=https://t.me/joinchat/xy2tjwLH-a05Y2Jk)
                 ]
             )
         
