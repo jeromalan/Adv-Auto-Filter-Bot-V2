@@ -132,7 +132,7 @@ async def auto_filter(bot, update):
             results.append(
                 [
                     InlineKeyboardButton(f"📁 file_name" , url=file_link)
-                    InlineKeyboardButton(f"btn_size" , url=https://t.me/joinchat/xy2tjwLH-a05Y2Jk)
+                    InlineKeyboardButton(btn_size , url=https://t.me/joinchat/xy2tjwLH-a05Y2Jk)
                 ]
             )
         
