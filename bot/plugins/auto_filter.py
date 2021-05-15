@@ -82,7 +82,7 @@ async def auto_filter(bot, update):
             
 
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size}"
+            button_text = f"📁 {file_size}"
                           
 
             if file_type == "video":
@@ -128,8 +128,8 @@ async def auto_filter(bot, update):
                             
             results.append(
                 [
-                    InlineKeyboardButton(📁 button_text, url=file_link), 
-                    InlineKeyboardButton("🎫 JOIN & TRY AGAIN" , url="https://t.me/joinchat/xy2tjwLH-a05Y2Jk")
+                    InlineKeyboardButton(button_text, url=file_link), 
+                    InlineKeyboardButton("JOIN & TRY AGAIN" , url="https://t.me/joinchat/xy2tjwLH-a05Y2Jk")
                 ]
             )
         
@@ -161,7 +161,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📜 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
         
         
