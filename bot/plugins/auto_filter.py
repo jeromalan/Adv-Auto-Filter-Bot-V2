@@ -120,10 +120,9 @@ async def auto_filter(bot, update):
                 file_link = f"https://t.me/{bot_.username}?start={unique_id}"
                             
             results.append(
-                [[
-                    InlineKeyboardButton(f"📁 file_name" , url=file_link), 
-                    InlineKeyboardButton(f"{file_size}" , url=https://t.me/joinchat/SvKwgBUA_RzHoNd6)
-                ]], 
+                [
+                    InlineKeyboardButton(f"📁 file_name" , url=file_link)
+                ]
             )
         
     else:
