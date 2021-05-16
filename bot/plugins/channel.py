@@ -112,7 +112,7 @@ async def connect(bot: Bot, update):
                             continue
                         file_id = file_id.video.file_id
                         file_name = msgs.video.file_name[0:-4]
-                        file_caption  = button_text \n\n Size: msgs.video.file_size
+                        file_caption  = f"{file_name}" \n\n Size: msgs.video.file_size
                         file_size = msgs.video.file_size
                         file_type = "video"
                     
@@ -127,7 +127,7 @@ async def connect(bot: Bot, update):
                             continue
                         file_id = file_id.audio.file_id
                         file_name = msgs.audio.file_name[0:-4]
-                        file_caption  = button_text \n\n Size: msgs.audio.file_size
+                        file_caption  = f"{file_name}"  \n\n Size: msgs.audio.file_size
                         file_size = msgs.audio.file_size
                         file_type = "audio"
                     
@@ -142,7 +142,7 @@ async def connect(bot: Bot, update):
                             continue
                         file_id = file_id.document.file_id
                         file_name = msgs.document.file_name[0:-4]
-                        file_caption  = button_text \n\n Size: msgs.document.file_size
+                        file_caption  = f"{file_name}"  \n\n Size: msgs.document.file_size
                         file_size = msgs.document.file_size
                         file_type = "document"
                     
