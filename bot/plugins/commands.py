@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + "</code>") \n\n Size: file_size
+        caption = file_name \n\n Size: file_size
         
         if file_type == "document":
         
