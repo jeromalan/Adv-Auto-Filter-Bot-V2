@@ -69,16 +69,16 @@ async def auto_filter(bot, update):
             # from B to MiB
             
             if file_size < 1024:
-                file_size = f"[{file_size} B]"
+                file_size = f"{file_size} B "
             elif file_size < (1024**2):
-                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
+                file_size = f"{str(round(file_size/1024, 2))} KiB "
             elif file_size < (1024**3):
-                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
+                file_size = f"{str(round(file_size/(1024**2), 2))} MiB "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
+                file_size = f"{str(round(file_size/(1024**3), 2))} GiB "
             
             
-            file_size = "" if file_size == ("[0 B]") else file_size
+            file_size = "" if file_size == ("0 B") else file_size
             
 
             # add emoji down below inside " " if you want..
@@ -158,12 +158,6 @@ async def auto_filter(bot, update):
                     InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
                 ]
             )
-        
-        # Just A Decaration
-        result[0].append([
-            InlineKeyboardButton(f"📜 Page 1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore")
-        ])
-        
         
         # if show_invite is True Append invite link buttons
         if show_invite:
