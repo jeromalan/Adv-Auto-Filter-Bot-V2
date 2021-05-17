@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("🔱 𝗗𝗿𝗮𝗫 𝗙𝗶𝗹𝗲𝘀 🔱", url="https://t.me/DraXFiles"),InlineKeyboardButton("🔱 𝗗𝗿𝗮𝗫 𝗦𝗲𝗿𝗶𝗲𝘀 🔱", url="https://t.me/DraXSeries")
+                    InlineKeyboardButton("⚜ 𝗗𝗿𝗮𝗫 𝗙𝗶𝗹𝗲𝘀 ⚜", url="https://t.me/DraXFiles"),InlineKeyboardButton("⚜ 𝗗𝗿𝗮𝗫 𝗦𝗲𝗿𝗶𝗲𝘀 ⚜", url="https://t.me/DraXSeries")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -169,7 +169,7 @@ async def auto_filter(bot, update):
         result[0].append([
             InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
-        result[0].append([ InlineKeyboardButton(f"💢 Join Our Main channel 💢", url="https://t.me/joinchat/TV_lOjIzLBGmSMGi") ])
+        result[0].append([ InlineKeyboardButton(f"💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url="https://t.me/joinchat/TV_lOjIzLBGmSMGi") ])
         # if show_invite is True Append invite link buttons
         if show_invite:
             
