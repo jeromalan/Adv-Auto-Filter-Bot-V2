@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="Join Our Movie Channel 🤭     ചാനലിൽ നിങ്ങൾ ഉണ്ട് എങ്കിൽ മാത്രമേ ഈ ബോട്ട് വഴി നിങ്ങൾക്ക് സിനിമ കിട്ടുകയുളളൂ.അതുകൊണ്ട് ചാനെലിൽ ജോയിൻ ആവുക...😁😁",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" ⭕️ Click too Join our Channel ⭕️ ", url=f"https://t.me/DraXMovies_Drax")]
+                    [ InlineKeyboardButton(text=" ⭕️ 𝗖𝗹𝗶𝗰𝗸 𝘁𝗼𝗼 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️ ", url=f"https://t.me/DraXMovies_Drax")]
               ])
             )
             return
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ Join Our Channel ⭕️', url="https://t.me/DraXFiles"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/DraXFiles"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ Join Our Channel ⭕️', url="https://t.me/DraXFiles"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/DraXFiles"
                                 )
                         ]
                     ]
@@ -95,7 +95,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ Join Our Channel ⭕️', url="https://t.me/DraXFiles"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/DraXFiles"
                                 )
                         ]
                     ]
@@ -108,8 +108,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('♻️ Group', url='https://t.me/DraxmovieZ'),
-        InlineKeyboardButton('🎞 Channel', url ='https://t.me/Draxmovies_drax')
+        InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/DraxmovieZ'),
+        InlineKeyboardButton('🎞 𝗰𝗵𝗮𝗻𝗻𝗲𝗹', url ='https://t.me/Draxmovies_drax')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
