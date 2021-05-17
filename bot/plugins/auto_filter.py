@@ -216,7 +216,8 @@ async def auto_filter(bot, update):
         try:
            Send_message=await bot.send_photo(
                 chat_id = update.chat.id,
-                text=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code>, Requested By <b><code>{update.from_user.first_name}</code></b>",               
+                photo="https://telegra.ph/Drax-group-05-17",
+                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code>",               
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
