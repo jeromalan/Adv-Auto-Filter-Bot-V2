@@ -146,7 +146,7 @@ async def cb_navg(bot, update: CallbackQuery):
                   
     try:
         await update.message.edit(
-                text,
+                photo,
                 reply_markup=reply_markup,
                 parse_mode="html"
         )
