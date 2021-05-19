@@ -42,15 +42,10 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption =("<code>" + file_name + """</code>\n-҉-҉-҉-҉-҉-҉-҉-҉-҉-҉-҉-
-🔊 𝗚𝗥𝗢𝗨𝗣
-@DraXmovieZ
-
-🎥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
-@DraXMovies_dx
-
-📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲
-@DX_links""")
+        caption =("<code>" + file_name + """</code>\n꧁༺ ---------------------- ༻꧂
+🔊 𝗚𝗥𝗢𝗨𝗣 - <ahref='https://t.me/DraXmovieZ'>DraX Movies Group</a>
+🎥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - <ahref='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>DraX Movies</a>
+📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 - <ahref='https://t.me/DX_links'>DraX Archive</a>""")
         
         if file_type == "document":
         
