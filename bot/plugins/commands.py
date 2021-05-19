@@ -43,8 +43,8 @@ async def start(bot, update):
             return
         
         caption =("<code>" + file_name + """</code>\n꧁༺ --------------------------- ༻꧂
-🔊 𝗚𝗥𝗢𝗨𝗣 - @DraXmovieZ
-🎥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - @DraXMovies_drax
+🕹 𝗚𝗥𝗢𝗨𝗣 - @DraXmovieZ
+🕹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - @DraXMovies_drax
 📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 - @DX_links""")
         
         if file_type == "document":
