@@ -50,7 +50,7 @@ async def start(bot, update):
 <ahref='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>DraX Movies</a>
 
 📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲
-<ahref='https://t.me/DX_links'>DraX Archive</a>"""")
+<ahref='https://t.me/DX_links'>DraX Archive</a>""")
         
         if file_type == "document":
         
