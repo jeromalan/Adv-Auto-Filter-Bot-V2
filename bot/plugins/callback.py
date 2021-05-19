@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    photo=f"😉 you got <code>{leng}</code> Results For Your Query👉 <code>{query}</code>" 
+    photo=f"😉 you got <code>{leng}</code> Results For Your Query👉 <code>{query}</code> \n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©DraX Movies</a></b>"  
                   
     try:
         await update.message.edit(
