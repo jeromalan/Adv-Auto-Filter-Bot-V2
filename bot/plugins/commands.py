@@ -43,19 +43,14 @@ async def start(bot, update):
             return
         
         caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + """</code>\n꧁༺-------------༻꧂
-💡 ɢʀᴏᴜᴘ
+🔊 𝗚𝗥𝗢𝗨𝗣
+<ahref='https://t.me/DraXmovieZ'>DraX Movies Group</a>
 
-@Film_zone_group
+🎥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
+<ahref='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>DraX Movies</a>
 
-  
-
-💡 ɢʀᴏᴜᴘ
-
-@Series_xzone
-
-🎯  ᴄʜᴀɴɴᴇʟs
-
-@Film_zone_channels</b>"""")
+📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲
+<ahref='https://t.me/DX_links'>DraX Archive</a>"""")
         
         if file_type == "document":
         
