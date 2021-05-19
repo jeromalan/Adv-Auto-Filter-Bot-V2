@@ -42,7 +42,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption != else ("<code>" + file_name + """</code>\n-҉-҉-҉-҉-҉-҉-҉-҉-҉-҉-҉-
+        caption =("<code>" + file_name + """</code>\n-҉-҉-҉-҉-҉-҉-҉-҉-҉-҉-҉-
 🔊 𝗚𝗥𝗢𝗨𝗣
 @DraXmovieZ
 
