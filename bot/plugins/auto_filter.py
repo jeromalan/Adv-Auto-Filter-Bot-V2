@@ -86,7 +86,8 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"<i>{file_size}-🎬{file_name}</i> , parse_mode="html""
+            button_text = f"<i>{file_size}-🎬{file_name}</i>"
+            parse_mode="html"
             
 
             if file_type == "video":
