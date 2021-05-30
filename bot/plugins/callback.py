@@ -1424,7 +1424,7 @@ async def cb_accuracy(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "57 %", callback_data=f"set(accuracy|0.57|{chat_id}|{val})"
+                    "54 %", callback_data=f"set(accuracy|0.54|{chat_id}|{val})"
                 )
         ],
         [
