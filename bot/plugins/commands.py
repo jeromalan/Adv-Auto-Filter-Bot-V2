@@ -12,7 +12,7 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
-    update_channel = "@DraXMovies_Drax"
+    update_channel = "@DraXMovies_DraZ"
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
@@ -44,7 +44,7 @@ async def start(bot, update):
         
         caption =("<code>" + file_name + """</code>\n꧁༺ --------------------------- ༻꧂
 🕹 𝗚𝗥𝗢𝗨𝗣 - @DraXmovieZ
-🕹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - @DraXMovies_drax
+🕹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - @DraXMovies_draZ
 📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 - @DX_links""")
         
         if file_type == "document":
@@ -112,7 +112,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/DraxmovieZ'),
-        InlineKeyboardButton('🎞 𝗰𝗵𝗮𝗻𝗻𝗲𝗹', url ='https://t.me/Draxmovies_drax')
+        InlineKeyboardButton('🎞 𝗰𝗵𝗮𝗻𝗻𝗲𝗹', url ='https://t.me/Draxmovies_draZ')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
