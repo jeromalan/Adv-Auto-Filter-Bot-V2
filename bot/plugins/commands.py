@@ -12,7 +12,7 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
-    update_channel = "https://t.me/joinchat/TV_lOjIzLBGmSMGi"
+    update_channel = "@DraXMovies_draZ"
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
