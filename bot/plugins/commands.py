@@ -60,7 +60,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/DraXFiles"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
                                 )
                         ]
                     ]
