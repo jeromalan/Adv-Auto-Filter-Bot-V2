@@ -60,7 +60,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📸 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁𝘀', callback_data='help'
+                                    '📸 𝗦 𝗖 𝗥 𝗘 𝗘 𝗡 𝗦 𝗛 𝗢 𝗧 𝗦', callback_data='help'
                                 )],
                         [
                             InlineKeyboardButton
@@ -84,7 +84,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📸 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁𝘀', callback_data='help'
+                                    '📸 𝗦 𝗖 𝗥 𝗘 𝗘 𝗡 𝗦 𝗛 𝗢 𝗧 𝗦', callback_data='help'
                                 )],
                         [   
                             InlineKeyboardButton
