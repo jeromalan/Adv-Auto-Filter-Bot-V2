@@ -1659,11 +1659,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
-        ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
-        ]]
+            InlineKeyboardButton('🤖 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 𝗕𝗼𝘁', url ='https://t.me/screenshotit_bot')],
+                  [
+            InlineKeyboardButton('Help🔐', callback_data='about')
+        ]]  
     
         reply_markup = InlineKeyboardMarkup(buttons)
         
@@ -1677,8 +1676,9 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Tutorial Video⚡', url ='https://t.me/DraXmovieZ')],
+                  [
+            InlineKeyboardButton('◀️ Back ', callback_data='help')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
