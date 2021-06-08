@@ -45,7 +45,7 @@ async def start(bot, update):
         caption =("<code>" + file_name + """</code>\n꧁༺ --------------------------- ༻꧂
 
 
-        (f"<a href= 'https://t.me/DraXmovieZ'>𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a>)""")
+        <a href= 'https://t.me/DraXmovieZ'>𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a>""")
         
         if file_type == "document":
         
@@ -65,7 +65,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/joinchat/TV_lOjIzLBGmSMGi"
                                 )
                         ]
                     ]
@@ -89,7 +89,7 @@ async def start(bot, update):
                         [   
                             InlineKeyboardButton
                                 (
-                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/joinchat/TV_lOjIzLBGmSMGi"
                                 )
                         ]
                     ]
