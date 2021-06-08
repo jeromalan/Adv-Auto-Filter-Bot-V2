@@ -161,7 +161,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Tutorial Video⚡', url ='https://t.me/DraXmovieZ')],
+        InlineKeyboardButton('Tutorial Video⚡', url ='https://telegra.ph/Generate-ScreenShots-06-08')],
               [
         InlineKeyboardButton('◀️ Back ', callback_data='help')
     ]]
