@@ -45,7 +45,7 @@ async def start(bot, update):
         caption =("<code>" + file_name + """</code>\n꧁༺ --------------------------- ༻꧂
 
 
-        <a href= 'https://t.me/DraXmovieZ'>𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a>""")
+        (f"<a href= 'https://t.me/DraXmovieZ'>𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a>)""")
         
         if file_type == "document":
         
