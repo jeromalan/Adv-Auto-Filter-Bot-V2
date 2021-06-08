@@ -60,6 +60,11 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
+                                    '📸 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁𝘀', callback_data='help'
+                                )],
+                        [
+                            InlineKeyboardButton
+                                (
                                     '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
                                 )
                         ]
@@ -77,6 +82,11 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
+                            InlineKeyboardButton
+                                (
+                                    '📸 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁𝘀', callback_data='help'
+                                )],
+                        [   
                             InlineKeyboardButton
                                 (
                                     '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
