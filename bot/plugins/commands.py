@@ -140,10 +140,9 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
-    ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('🤖 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 𝗕𝗼𝘁', url ='https://t.me/screenshotit_bot')],
+              [
+        InlineKeyboardButton('Help🔐', callback_data='about')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -161,8 +160,9 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('Tutorial Video⚡', url = "https://t.me/DraXmovieZ")],
+              [
+        InlineKeyboardButton('◀️ Back ', callback_data='help')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
