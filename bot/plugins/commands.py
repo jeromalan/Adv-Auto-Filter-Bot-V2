@@ -17,19 +17,20 @@ async def start(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
+               await update.reply_photo("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
-            await update.reply_text(
-                text="Join Our 𝐒𝐓𝐀𝐑 𝐌★𝐕𝐈𝐄𝐒 Channel 🤭     ചാനലിൽ നിങ്ങൾ ഉണ്ട് എങ്കിൽ മാത്രമേ ഈ ബോട്ട് വഴി നിങ്ങൾക്ക് സിനിമ കിട്ടുകയുളളൂ.അതുകൊണ്ട് ചാനെലിൽ ജോയിൻ ആവുക...😁😁",
+            #await update.reply_photo(f"Join @{update_channel} To Use Me")
+            await update.reply_photo(
+                photo="https://telegra.ph/%F0%9D%90%92%F0%9D%90%93%F0%9D%90%80%F0%9D%90%91-%F0%9D%90%8C%F0%9D%90%95%F0%9D%90%88%F0%9D%90%84%F0%9D%90%92-07-25",
+                caption="Join Our 𝐒𝐓𝐀𝐑 𝐌★𝐕𝐈𝐄𝐒 Channel 🤭     ചാനലിൽ നിങ്ങൾ ഉണ്ട് എങ്കിൽ മാത്രമേ ഈ ബോട്ട് വഴി നിങ്ങൾക്ക് സിനിമ കിട്ടുകയുളളൂ.അതുകൊണ്ട് ചാനെലിൽ ജോയിൻ ആവുക...😁😁",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text=" ⭕️ 𝗖𝗹𝗶𝗰𝗸 𝘁𝗼𝗼 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️ ", url=f"https://t.me/joinchat/qIe9vomtxKg0YzE1")]
               ])
             )
             return
         except Exception:
-            await update.reply_text("Something Wrong. Contact my Support Group")
+            await update.reply_photo("Something Wrong. Contact my Support Group")
             return    
     try:
         file_uid = update.command[1]
